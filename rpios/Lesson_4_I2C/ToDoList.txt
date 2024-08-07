@@ -1,0 +1,11 @@
+1. Set up the Arduino device----------------------------------------------> Done.
+
+2. Check the screen connection to Raspberry Pi----------------------------> Done.
+
+3. Check the screen connection to Arduino---------------------------------> Done. 
+
+4. Check how to connect the jumper wire from Raspberry Pi to Arduino------> Done.
+
+5. Connect the wire-------------------------------------------------------> Done.
+
+6. Run the program and test the working-----------------------------------> Done.

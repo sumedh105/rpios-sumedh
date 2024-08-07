@@ -47,6 +47,7 @@ void kernel_main()
 	timer_sleep(200);
 
 	printf("Initializing I2C\n");
+	i2c_init();
 
 	for (int i = 0; i < 10; i++) {
 		char buffer[10];
@@ -71,9 +72,9 @@ void kernel_main()
 
 	/* RPI -> Arduino
 	 * 
-	 * GPIO2 -> A4
-	 * GPIO3 -> A5
-	 * GND   -> GND
+	 * GPIO2 (Pin no 3) 	-> A4
+	 * GPIO3 (Pin no 5) 	-> A5
+	 * GND   		-> GND
 	 *
 	 */
 
